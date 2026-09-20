@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 2,
+  "packs": [
+    {
+      "id": "v2-explorer-first-paths",
+      "file": "v2-explorer-first-paths.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "First Paths"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-pathfinders",
+      "file": "v2-explorer-pathfinders.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Pathfinders"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-new-horizons",
+      "file": "v2-explorer-new-horizons.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "New Horizons"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-trailblazers",
+      "file": "v2-explorer-trailblazers.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Trailblazers"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-brave-explorers",
+      "file": "v2-explorer-brave-explorers.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Brave Explorers"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-wide-worlds",
+      "file": "v2-explorer-wide-worlds.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Wide Worlds",
+          "fil": "Malawak na Mundo"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-brave-bridges",
+      "file": "v2-explorer-brave-bridges.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Brave Bridges",
+          "fil": "Matapang na mga Tulay"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-gentle-giants",
+      "file": "v2-explorer-gentle-giants.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Gentle Giants",
+          "fil": "Mahinahon na Higante"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-curious-corners",
+      "file": "v2-explorer-curious-corners.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Curious Corners",
+          "fil": "Usisang Sulok"
+        }
+      }
+    },
+    {
+      "id": "v2-explorer-star-explorers",
+      "file": "v2-explorer-star-explorers.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Star Explorers",
+          "fil": "Mga Bituing Manlalakbay"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-space-builders",
+      "file": "v2-builder-space-builders.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Space Builders",
+          "fil": "Mga Tagabuo ng Puwang"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-bridge-builders",
+      "file": "v2-builder-bridge-builders.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Bridge Builders",
+          "fil": "Mga Tagabuo ng Tulay"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-open-spaces",
+      "file": "v2-builder-open-spaces.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Open Spaces",
+          "fil": "Mga Bukás na Espasyo"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-clever-crossings",
+      "file": "v2-builder-clever-crossings.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Clever Crossings",
+          "fil": "Matalinong mga Tawiran"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-complex-scaffolding",
+      "file": "v2-builder-complex-scaffolding.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Complex Scaffolding",
+          "fil": "Komplikadong Andamyo"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-grand-designs",
+      "file": "v2-builder-grand-designs.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Grand Designs",
+          "fil": "Marunong na mga Disenyo"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-tower-teams",
+      "file": "v2-builder-tower-teams.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Tower Teams",
+          "fil": "Mga Koponan ng Tore"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-skyline-builders",
+      "file": "v2-builder-skyline-builders.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Skyline Builders",
+          "fil": "Tagabuo ng Skyline"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-master-craft",
+      "file": "v2-builder-master-craft.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Master Craft",
+          "fil": "Dalubhasang Gawa"
+        }
+      }
+    },
+    {
+      "id": "v2-builder-wonder-works",
+      "file": "v2-builder-wonder-works.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Wonder Works",
+          "fil": "Kamangha-manghang Gawa"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-plan-ahead",
+      "file": "v2-planner-plan-ahead.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Plan Ahead",
+          "fil": "Magplano nang Maaga"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-future-paths",
+      "file": "v2-planner-future-paths.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Future Paths",
+          "fil": "Mga Daan sa Hinaharap"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-path-masters",
+      "file": "v2-planner-path-masters.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Path Masters",
+          "fil": "Mga Dalubhasa sa Daan"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-route-strategists",
+      "file": "v2-planner-route-strategists.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Route Strategists",
+          "fil": "Mga Estratehista sa Ruta"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-visionary-voyages",
+      "file": "v2-planner-visionary-voyages.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Visionary Voyages",
+          "fil": "Makabagong Paglalakbay"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-deep-routes",
+      "file": "v2-planner-deep-routes.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Deep Routes",
+          "fil": "Malalim na Ruta"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-careful-plans",
+      "file": "v2-planner-careful-plans.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Careful Plans",
+          "fil": "Maingat na Plano"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-puzzle-maps",
+      "file": "v2-planner-puzzle-maps.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Puzzle Maps",
+          "fil": "Mapa ng Palaisipan"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-long-views",
+      "file": "v2-planner-long-views.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Long Views",
+          "fil": "Mahabang Tanaw"
+        }
+      }
+    },
+    {
+      "id": "v2-planner-grand-voyage",
+      "file": "v2-planner-grand-voyage.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Grand Voyage",
+          "fil": "Dakilang Paglalakbay"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-tactical-maneuvers",
+      "file": "v2-strategist-tactical-maneuvers.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Tactical Maneuvers",
+          "fil": "Mga Taktikal na Manewra"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-efficient-exits",
+      "file": "v2-strategist-efficient-exits.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Efficient Exits",
+          "fil": "Mahusay na Paglabas"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-grand-strategy",
+      "file": "v2-strategist-grand-strategy.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Grand Strategy",
+          "fil": "Dakilang Istratehiya"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-calculated-clearings",
+      "file": "v2-strategist-calculated-clearings.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Calculated Clearings",
+          "fil": "Kinakalkulang Paglilinaw"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-masterful-planning",
+      "file": "v2-strategist-masterful-planning.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Masterful Planning",
+          "fil": "Maestro ng Pagpaplano"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-quiet-openings",
+      "file": "v2-strategist-quiet-openings.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Quiet Openings",
+          "fil": "Tahimik na Simula"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-sharp-turns",
+      "file": "v2-strategist-sharp-turns.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Sharp Turns",
+          "fil": "Matalas na Liko"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-hidden-paths",
+      "file": "v2-strategist-hidden-paths.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Hidden Paths",
+          "fil": "Nakatagong Landas"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-calm-storms",
+      "file": "v2-strategist-calm-storms.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Calm Storms",
+          "fil": "Katahimikan sa Bagyo"
+        }
+      }
+    },
+    {
+      "id": "v2-strategist-brilliant-endings",
+      "file": "v2-strategist-brilliant-endings.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Brilliant Endings",
+          "fil": "Maliwanag na Wakas"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-pillar-of-strength",
+      "file": "v2-architect-pillar-of-strength.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Pillar of Strength",
+          "fil": "Haligi ng Lakas"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-iron-framework",
+      "file": "v2-architect-iron-framework.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Iron Framework",
+          "fil": "Bakal na Balangkas"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-marble-mazes",
+      "file": "v2-architect-marble-mazes.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Marble Mazes",
+          "fil": "Mga Labirinto ng Marmol"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-solid-structures",
+      "file": "v2-architect-solid-structures.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Solid Structures",
+          "fil": "Matibay na Istruktura"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-architectural-wonders",
+      "file": "v2-architect-architectural-wonders.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Architectural Wonders",
+          "fil": "Mga Kamangha-manghang Arkitektura"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-glass-towers",
+      "file": "v2-architect-glass-towers.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Glass Towers",
+          "fil": "Mga Tore ng Salamin"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-sky-bridges",
+      "file": "v2-architect-sky-bridges.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Sky Bridges",
+          "fil": "Mga Tulay sa Himpapawid"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-golden-halls",
+      "file": "v2-architect-golden-halls.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Golden Halls",
+          "fil": "Ginintuang Bulwagan"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-crystal-cities",
+      "file": "v2-architect-crystal-cities.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Crystal Cities",
+          "fil": "Kristal na Lungsod"
+        }
+      }
+    },
+    {
+      "id": "v2-architect-monument-works",
+      "file": "v2-architect-monument-works.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Monument Works",
+          "fil": "Mga Bantayog"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-spark-of-genius",
+      "file": "v2-innovator-spark-of-genius.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Spark of Genius",
+          "fil": "Kislap ng Talino"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-the-fluid-path",
+      "file": "v2-innovator-the-fluid-path.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "The Fluid Path",
+          "fil": "Ang Palad na Daan"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-changing-channels",
+      "file": "v2-innovator-changing-channels.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Changing Channels",
+          "fil": "Pagbabago ng Kanal"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-elastic-exits",
+      "file": "v2-innovator-elastic-exits.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Elastic Exits",
+          "fil": "Elastikong Paglabas"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-radiant-reasoning",
+      "file": "v2-innovator-radiant-reasoning.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Radiant Reasoning",
+          "fil": "Maliwanag na Pangangatwiran"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-fresh-ideas",
+      "file": "v2-innovator-fresh-ideas.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Fresh Ideas",
+          "fil": "Bagong Ideya"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-bright-sparks",
+      "file": "v2-innovator-bright-sparks.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Bright Sparks",
+          "fil": "Maliwanag na Kislap"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-flowing-logic",
+      "file": "v2-innovator-flowing-logic.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Flowing Logic",
+          "fil": "Dumadaloy na Lohika"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-bold-leaps",
+      "file": "v2-innovator-bold-leaps.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Bold Leaps",
+          "fil": "Matapang na Talon"
+        }
+      }
+    },
+    {
+      "id": "v2-innovator-genius-realm",
+      "file": "v2-innovator-genius-realm.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Genius Realm",
+          "fil": "Kaharian ng Henyo"
+        }
+      }
+    },
+    {
+      "id": "v2-prodigy-eternal-echoes",
+      "file": "v2-prodigy-eternal-echoes.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Eternal Echoes",
+          "fil": "Walang Hanggang Eko"
+        }
+      }
+    },
+    {
+      "id": "v2-prodigy-the-master-key",
+      "file": "v2-prodigy-the-master-key.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "The Master Key",
+          "fil": "Ang Pangunahing Susi"
+        }
+      }
+    },
+    {
+      "id": "v2-prodigy-infinite-odyssey",
+      "file": "v2-prodigy-infinite-odyssey.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Infinite Odyssey",
+          "fil": "Walang Hanggang Odisiya"
+        }
+      }
+    },
+    {
+      "id": "v2-prodigy-sovereign-solves",
+      "file": "v2-prodigy-sovereign-solves.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Sovereign Solves",
+          "fil": "Marangal na Solusyon"
+        }
+      }
+    },
+    {
+      "id": "v2-prodigy-the-prodigys-peak",
+      "file": "v2-prodigy-the-prodigys-peak.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "The Visionary's Peak",
+          "fil": "Rurok ng Visionary"
+        }
+      }
+    },
+    {
+      "id": "v2-visionary-new-dawn",
+      "file": "v2-visionary-new-dawn.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "New Dawn",
+          "fil": "Bagong Sinag"
+        }
+      }
+    },
+    {
+      "id": "v2-visionary-rising-tides",
+      "file": "v2-visionary-rising-tides.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Rising Tides",
+          "fil": "Umusbong na Alon"
+        }
+      }
+    },
+    {
+      "id": "v2-visionary-star-bridges",
+      "file": "v2-visionary-star-bridges.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Star Bridges",
+          "fil": "Mga Tulay ng mga Bituin"
+        }
+      }
+    },
+    {
+      "id": "v2-visionary-deep-space",
+      "file": "v2-visionary-deep-space.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Deep Space",
+          "fil": "Malalim na Kalawakan"
+        }
+      }
+    },
+    {
+      "id": "v2-visionary-infinite-light",
+      "file": "v2-visionary-infinite-light.json",
+      "required": true,
+      "presentation": {
+        "title": {
+          "en": "Infinite Light",
+          "fil": "Walang Hanggang Liwanag"
+        }
+      }
+    }
+  ]
+}

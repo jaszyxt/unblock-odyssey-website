@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-explorer-wide-worlds",
+  "version": 3,
+  "levels": [
+    {
+      "id": "v2-explorer-wide-worlds-l01-q01",
+      "gridSize": 5,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 1
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 3
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-wide-worlds-l01-q02",
+      "gridSize": 5,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 2
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 4
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 4,
+          "x": 2,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-wide-worlds-l01-q03",
+      "gridSize": 5,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 3
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 4
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-wide-worlds-l01-q04",
+      "gridSize": 5,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 4
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 4
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 0,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 3,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-wide-worlds-l01-q05",
+      "gridSize": 5,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 5
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 3
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    }
+  ]
+}

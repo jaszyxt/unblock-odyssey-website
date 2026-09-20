@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-prodigy-sovereign-solves",
+  "version": 3,
+  "levels": [
+    {
+      "id": "v2-prodigy-sovereign-solves-l01-q01",
+      "gridSize": 6,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 1
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 3
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 2,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 2,
+          "y": 3,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 5,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 9,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 10,
+          "x": 2,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 11,
+          "x": 4,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "VISIONARY",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 18
+      }
+    },
+    {
+      "id": "v2-prodigy-sovereign-solves-l01-q02",
+      "gridSize": 6,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 2
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 1
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 5,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 0,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 1,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 9,
+          "x": 3,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 10,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 11,
+          "x": 3,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 12,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 13,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "VISIONARY",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 18
+      }
+    },
+    {
+      "id": "v2-prodigy-sovereign-solves-l01-q03",
+      "gridSize": 6,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 3
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 4
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 5,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 3,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 5,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 4,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 2,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 8,
+          "x": 1,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 9,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 10,
+          "x": 1,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 11,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 12,
+          "x": 2,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "VISIONARY",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 18
+      }
+    },
+    {
+      "id": "v2-prodigy-sovereign-solves-l01-q04",
+      "gridSize": 6,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 4
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 2
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 5,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 3,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 7,
+          "x": 4,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 9,
+          "x": 2,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 10,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 11,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "VISIONARY",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 18
+      }
+    },
+    {
+      "id": "v2-prodigy-sovereign-solves-l01-q05",
+      "gridSize": 6,
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 5
+      },
+      "exit": {
+        "side": "RIGHT",
+        "index": 2
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 5,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 7,
+          "x": 2,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 8,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 9,
+          "x": 0,
+          "y": 5,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 10,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 11,
+          "x": 2,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "VISIONARY",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 18
+      }
+    }
+  ]
+}

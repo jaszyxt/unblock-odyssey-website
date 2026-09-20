@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-planner-plan-ahead",
+  "version": 3,
+  "levels": [
+    {
+      "id": "v2-planner-plan-ahead-l01-q01",
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 4
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 8,
+          "x": 4,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "PLANNER",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "BLOCKING_RELATIONSHIPS",
+          "SEQUENCING"
+        ],
+        "expectedMinimumMoves": 6,
+        "authoredDifficulty": 4
+      },
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 1
+      }
+    },
+    {
+      "id": "v2-planner-plan-ahead-l01-q02",
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 1
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 1,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 3,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "PLANNER",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "BLOCKING_RELATIONSHIPS",
+          "SEQUENCING"
+        ],
+        "expectedMinimumMoves": 6,
+        "authoredDifficulty": 4
+      },
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 2
+      }
+    },
+    {
+      "id": "v2-planner-plan-ahead-l01-q03",
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 1,
+          "y": 1,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 3,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "PLANNER",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "BLOCKING_RELATIONSHIPS",
+          "SEQUENCING"
+        ],
+        "expectedMinimumMoves": 7,
+        "authoredDifficulty": 4
+      },
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 3
+      }
+    },
+    {
+      "id": "v2-planner-plan-ahead-l01-q04",
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "PLANNER",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "BLOCKING_RELATIONSHIPS",
+          "SEQUENCING"
+        ],
+        "expectedMinimumMoves": 7,
+        "authoredDifficulty": 4
+      },
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 4
+      }
+    },
+    {
+      "id": "v2-planner-plan-ahead-l01-q05",
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 0,
+          "y": 2,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 6,
+          "x": 4,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 2,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "PLANNER",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "BLOCKING_RELATIONSHIPS",
+          "SEQUENCING"
+        ],
+        "expectedMinimumMoves": 7,
+        "authoredDifficulty": 4
+      },
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Publish settings for the companion website. The site is an advert + test bench, not the full game, so it publishes a capped slice of the library. Edit these values (or override with CLI flags) when the owner decides to change the site's scope. See website/docs/UPDATING.md.",
+  "levelsPerPack": 1,
+  "maxPacksPerTrack": 10
+}

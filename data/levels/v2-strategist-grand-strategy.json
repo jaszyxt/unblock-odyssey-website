@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 2,
+  "id": "v2-strategist-grand-strategy",
+  "version": 1,
+  "track": "STRATEGIST",
+  "levels": [
+    {
+      "id": "v2-strategist-grand-strategy-l01-q01",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 1
+      },
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "STRATEGIST",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING",
+          "BLOCKING_RELATIONSHIPS"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 13
+      }
+    },
+    {
+      "id": "v2-strategist-grand-strategy-l01-q02",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 2
+      },
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "STRATEGIST",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING",
+          "BLOCKING_RELATIONSHIPS"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 13
+      }
+    },
+    {
+      "id": "v2-strategist-grand-strategy-l01-q03",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 3
+      },
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "STRATEGIST",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING",
+          "BLOCKING_RELATIONSHIPS"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 13
+      }
+    },
+    {
+      "id": "v2-strategist-grand-strategy-l01-q04",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 4
+      },
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "STRATEGIST",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING",
+          "BLOCKING_RELATIONSHIPS"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 13
+      }
+    },
+    {
+      "id": "v2-strategist-grand-strategy-l01-q05",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 5
+      },
+      "gridSize": 5,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 1,
+          "y": 4,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 4,
+          "y": 3,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 1,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0,
+          "length": 3,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 6,
+          "x": 2,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 7,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 8,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "STRATEGIST",
+        "skills": [
+          "MULTI_STEP_PLANNING",
+          "SEQUENCING",
+          "BLOCKING_RELATIONSHIPS"
+        ],
+        "authoredDifficulty": 5,
+        "expectedMinimumMoves": 13
+      }
+    }
+  ]
+}

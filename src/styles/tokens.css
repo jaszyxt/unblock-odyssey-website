@@ -1,0 +1,119 @@
+/* Design tokens — mirrored from the game's ui/theme (see website/docs/DESIGN.md). */
+
+:root {
+  --bg: #FAF9F6;
+  --surface: #FFFFFF;
+  --surface-2: #F0ECF7;
+  --text: #24212B;
+  --muted: #77717F;
+  --outline: #C9C3D0;
+
+  --primary: #5C51D6;
+  --primary-deep: #3B347F;
+  --primary-container: #E7E5FF;
+  --on-primary: #FFFFFF;
+
+  --teal: #4DB6AC;
+  --teal-container: #E0F2F1;
+  --raspberry: #B83256;
+  --raspberry-container: #FFD9E1;
+  --gold: #FFD700;
+  --success: #257A4B;
+  --success-container: #D9F6E4;
+  --warning: #8A5A00;
+  --focus: #0057D9;
+
+  --shadow-1: 0 1px 2px rgba(36, 33, 43, .06), 0 4px 14px rgba(36, 33, 43, .08);
+  --shadow-2: 0 2px 6px rgba(36, 33, 43, .08), 0 12px 32px rgba(36, 33, 43, .14);
+  --shadow-3: 0 6px 16px rgba(36, 33, 43, .12), 0 24px 56px rgba(36, 33, 43, .20);
+
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+
+  --font: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --header-h: 64px;
+  --wrap: 1120px;
+}
+
+[data-theme="dark"] {
+  --bg: #0F111A;
+  --surface: #1A1D29;
+  --surface-2: #2D2934;
+  --text: #F7F3FB;
+  --muted: #C9C3D0;
+  --outline: #565064;
+
+  --primary: #A594F9;
+  --primary-deep: #3B347F;
+  --primary-container: #3B347F;
+  --on-primary: #17132E;
+
+  --teal: #80CBC4;
+  --teal-container: #1E3A36;
+  --raspberry: #FFB1C3;
+  --raspberry-container: #4A2431;
+  --success: #8DD8AA;
+  --success-container: #1F3A2A;
+  --focus: #FFE36E;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 4px 14px rgba(0, 0, 0, .35);
+  --shadow-2: 0 2px 6px rgba(0, 0, 0, .45), 0 12px 32px rgba(0, 0, 0, .45);
+  --shadow-3: 0 6px 16px rgba(0, 0, 0, .5), 0 24px 56px rgba(0, 0, 0, .55);
+}
+
+/* High-contrast mode (mirrors the game's accessibility theme). */
+[data-contrast="high"] {
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F2F2F2;
+  --text: #000000;
+  --muted: #333333;
+  --outline: #000000;
+  --primary: #001B6B;
+  --primary-deep: #001B6B;
+  --primary-container: #DDE1FF;
+  --on-primary: #FFFFFF;
+  --teal: #00695C;
+  --raspberry: #8E0038;
+  --focus: #001B6B;
+  --shadow-1: 0 0 0 1px #000;
+  --shadow-2: 0 0 0 2px #000;
+  --shadow-3: 0 0 0 3px #000;
+}
+
+[data-contrast="high"][data-theme="dark"] {
+  --bg: #000000;
+  --surface: #0A0A0A;
+  --surface-2: #141414;
+  --text: #FFFFFF;
+  --muted: #CCCCCC;
+  --outline: #FFFFFF;
+  --primary: #DDE1FF;
+  --primary-deep: #FFFFFF;
+  --primary-container: #1B1F4D;
+  --on-primary: #000000;
+  --focus: #FFE36E;
+}
+
+/* Motion preferences */
+:root {
+  --t-fast: 100ms;
+  --t-med: 240ms;
+  --t-slow: 650ms;
+  --ease-pop: cubic-bezier(.34, 1.56, .64, 1);
+}
+[data-motion="reduced"] * {
+  animation-duration: .01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .01ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:not([data-motion="full"]) * {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

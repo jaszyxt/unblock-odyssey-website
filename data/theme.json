@@ -1,0 +1,619 @@
+{
+  "_source": "Curated mirror of the game's visual identity (design/GameThemeCatalog.kt, ui/theme/Color.kt). Edit this file when the game rebrands — see website/docs/UPDATING.md.",
+  "brand": {
+    "name": "Unblock Odyssey",
+    "tagline": "Make a path. Try a plan.",
+    "support": "Move the pieces, clear the road, and grow your thinking.",
+    "taglineFil": "Gumawa ng daan. Subukan ang plano.",
+    "supportFil": "Igalaw ang mga piyesa, linawin ang daan, at lumaking nag-iisip.",
+    "copyright": "© 2026 Unblock Odyssey. All rights reserved."
+  },
+  "palette": {
+    "light": {
+      "bg": "#FAF9F6",
+      "surface": "#FFFFFF",
+      "surface2": "#F0ECF7",
+      "text": "#24212B",
+      "muted": "#77717F",
+      "primary": "#5C51D6",
+      "primaryDeep": "#3B347F",
+      "primaryContainer": "#E7E5FF",
+      "teal": "#4DB6AC",
+      "raspberry": "#B83256",
+      "gold": "#FFD700",
+      "success": "#257A4B",
+      "focus": "#0057D9"
+    },
+    "dark": {
+      "bg": "#0F111A",
+      "surface": "#1A1D29",
+      "surface2": "#2D2934",
+      "text": "#F7F3FB",
+      "muted": "#C9C3D0",
+      "primary": "#A594F9",
+      "primaryDeep": "#3B347F",
+      "primaryContainer": "#3B347F",
+      "teal": "#80CBC4",
+      "raspberry": "#FFB1C3",
+      "gold": "#FFD700",
+      "success": "#8DD8AA",
+      "focus": "#FFE36E"
+    }
+  },
+  "worlds": {
+    "city-cars": {
+      "name": "City Cars",
+      "tagline": "Guide toy cars through a bright city.",
+      "motif": "city",
+      "hero": {
+        "name": "City Car",
+        "emoji": "🚗"
+      },
+      "stage": [
+        "#64B5F6",
+        "#1565C0"
+      ],
+      "board": {
+        "bg": "#B0BEC5",
+        "inner": "#F5F7FA",
+        "lines": "#CFD8DC",
+        "target": "#FF5252",
+        "ink": "#263238",
+        "rim": "#8E99A2"
+      },
+      "blockers": [
+        "#4FC3F7",
+        "#FFF176",
+        "#FFB74D",
+        "#81C784",
+        "#BA68C8"
+      ],
+      "roster": [
+        {
+          "name": "Turbo Sportster",
+          "emoji": "🏎️"
+        },
+        {
+          "name": "Glitter Glamour",
+          "emoji": "🚙"
+        },
+        {
+          "name": "Cyber Cruiser",
+          "emoji": "🚓"
+        },
+        {
+          "name": "Neon Drift Racer",
+          "emoji": "🏍️"
+        },
+        {
+          "name": "Solaris Hyper-EV",
+          "emoji": "🚘"
+        }
+      ],
+      "nameFil": "Mga City Car",
+      "taglineFil": "Tulungan ang mga toy car sa makulay na siyudad.",
+      "trackTrims": {
+        "EXPLORER": "#0E7490",
+        "PLANNER": "#0369A1",
+        "BUILDER": "#8A6D2F",
+        "STRATEGIST": "#2F4A75",
+        "ARCHITECT": "#0F6B64",
+        "INNOVATOR": "#5E35B1",
+        "VISIONARY": "#5E4B9E"
+      },
+      "boardDark": {
+        "boardBg": "#1F2937",
+        "inner": "#101214",
+        "lines": "#5C6B73",
+        "target": "#FF8A80",
+        "ink": "#ECEFF1",
+        "rim": "#475569"
+      },
+      "frame": {
+        "light": [
+          "#E2E8F0",
+          "#CBD5E1",
+          "#94A3B8"
+        ],
+        "dark": [
+          "#374151",
+          "#1F2937",
+          "#111827"
+        ]
+      }
+    },
+    "magic-forest": {
+      "name": "Magic Forest",
+      "tagline": "Open a gentle path through the woods.",
+      "motif": "forest",
+      "hero": {
+        "name": "Majestic Unicorn",
+        "emoji": "🦄"
+      },
+      "stage": [
+        "#81C784",
+        "#2E7D32"
+      ],
+      "board": {
+        "bg": "#386618",
+        "inner": "#F4F8EC",
+        "lines": "#94BB84",
+        "target": "#FF8FB1",
+        "ink": "#1B4009",
+        "rim": "#2E6B12"
+      },
+      "blockers": [
+        "#FFD54F",
+        "#90CAF9",
+        "#CE93D8",
+        "#81C784",
+        "#FFAB91"
+      ],
+      "roster": [
+        {
+          "name": "Crystal Pegasus",
+          "emoji": "🐎"
+        },
+        {
+          "name": "Starlight Phoenix",
+          "emoji": "🔥"
+        },
+        {
+          "name": "Celestial Griffin",
+          "emoji": "🦅"
+        },
+        {
+          "name": "Lunar Shadow Fox",
+          "emoji": "🦊"
+        },
+        {
+          "name": "Prismatic Kirin",
+          "emoji": "🐉"
+        }
+      ],
+      "nameFil": "Magic Forest",
+      "taglineFil": "Buksan ang mahinhing daan sa kagubatan.",
+      "trackTrims": {
+        "EXPLORER": "#0E7490",
+        "PLANNER": "#0369A1",
+        "BUILDER": "#8A6D2F",
+        "STRATEGIST": "#2F4A75",
+        "ARCHITECT": "#0F6B64",
+        "INNOVATOR": "#5E35B1",
+        "VISIONARY": "#5E4B9E"
+      },
+      "boardDark": {
+        "boardBg": "#0B3C32",
+        "inner": "#081410",
+        "lines": "#2E806C",
+        "target": "#FFB1C1",
+        "ink": "#DFF2E4",
+        "rim": "#2E806C"
+      },
+      "frame": {
+        "light": [
+          "#4B7B22",
+          "#386618",
+          "#25480D"
+        ],
+        "dark": [
+          "#0B3C32",
+          "#062A27",
+          "#021A18"
+        ]
+      }
+    },
+    "space-explorer": {
+      "name": "Space Explorer",
+      "tagline": "Clear a calm route through space.",
+      "motif": "space",
+      "hero": {
+        "name": "Space Shuttle",
+        "emoji": "🚀"
+      },
+      "stage": [
+        "#1A237E",
+        "#0A0E21"
+      ],
+      "board": {
+        "bg": "#C5CAE9",
+        "inner": "#F5F7FF",
+        "lines": "#9FADE0",
+        "target": "#00E5FF",
+        "ink": "#1A237E",
+        "rim": "#9FA8DA"
+      },
+      "blockers": [
+        "#BA68C8",
+        "#FFD54F",
+        "#F06292",
+        "#4FC3F7",
+        "#DCE775"
+      ],
+      "roster": [
+        {
+          "name": "Galactic Interceptor",
+          "emoji": "🛰️"
+        },
+        {
+          "name": "Nebula Dreadnought",
+          "emoji": "🛸"
+        },
+        {
+          "name": "Quantum Voyager",
+          "emoji": "🌌"
+        },
+        {
+          "name": "Solar Flare Corvette",
+          "emoji": "☄️"
+        },
+        {
+          "name": "Cosmic Void Cruiser",
+          "emoji": "🔭"
+        }
+      ],
+      "nameFil": "Space Explorer",
+      "taglineFil": "Linawin ang mapayapang ruta sa kalawakan.",
+      "trackTrims": {
+        "EXPLORER": "#0E7490",
+        "PLANNER": "#0369A1",
+        "BUILDER": "#8A6D2F",
+        "STRATEGIST": "#2F4A75",
+        "ARCHITECT": "#0F6B64",
+        "INNOVATOR": "#5E35B1",
+        "VISIONARY": "#5E4B9E"
+      },
+      "boardDark": {
+        "boardBg": "#1A2332",
+        "inner": "#050714",
+        "lines": "#525895",
+        "target": "#18FFFF",
+        "ink": "#E3F2FD",
+        "rim": "#525895"
+      },
+      "frame": {
+        "light": [
+          "#ECEFF1",
+          "#B0BEC5",
+          "#78909C"
+        ],
+        "dark": [
+          "#283548",
+          "#1A2332",
+          "#0F1722"
+        ]
+      }
+    },
+    "clearspace": {
+      "name": "Clearspace",
+      "tagline": "Calm, minimal paths for focused minds.",
+      "motif": "clear",
+      "hero": {
+        "name": "The Arrow",
+        "emoji": "🏹"
+      },
+      "stage": [
+        "#334155",
+        "#0F172A"
+      ],
+      "board": {
+        "bg": "#475569",
+        "inner": "#E2E8F0",
+        "lines": "#CBD5E1",
+        "target": "#0284C7",
+        "ink": "#0F172A",
+        "rim": "#64748B"
+      },
+      "blockers": [
+        "#94A3B8",
+        "#78909C",
+        "#64748B",
+        "#526273",
+        "#8096A2"
+      ],
+      "roster": [
+        {
+          "name": "Plasma Bolt",
+          "emoji": "⚡"
+        },
+        {
+          "name": "Prism Blade",
+          "emoji": "🔷"
+        },
+        {
+          "name": "Vector Pulse",
+          "emoji": "📶"
+        },
+        {
+          "name": "Chroma Zenith",
+          "emoji": "🌈"
+        },
+        {
+          "name": "Hyperion Core Nexus",
+          "emoji": "💠"
+        }
+      ],
+      "nameFil": "Clearspace",
+      "taglineFil": "Kalmado at simpleng mga daan para sa malinaw na isip.",
+      "trackTrims": {
+        "EXPLORER": "#0E7490",
+        "PLANNER": "#0369A1",
+        "BUILDER": "#8A6D2F",
+        "STRATEGIST": "#2F4A75",
+        "ARCHITECT": "#0F6B64",
+        "INNOVATOR": "#5E35B1",
+        "VISIONARY": "#5E4B9E"
+      },
+      "boardDark": {
+        "boardBg": "#18182E",
+        "inner": "#1E293B",
+        "lines": "#64748B",
+        "target": "#38BDF8",
+        "ink": "#E2E8F0",
+        "rim": "#475569"
+      },
+      "frame": {
+        "light": [
+          "#F1F5F9",
+          "#94A3B8",
+          "#475569"
+        ],
+        "dark": [
+          "#252542",
+          "#18182E",
+          "#0E0E1B"
+        ]
+      }
+    },
+    "coral-kingdom": {
+      "name": "Coral Kingdom",
+      "tagline": "Drift through seven glowing reef zones.",
+      "motif": "coral",
+      "hero": {
+        "name": "Coral Turtle",
+        "emoji": "🐢"
+      },
+      "stage": [
+        "#38BDF8",
+        "#0E7490"
+      ],
+      "board": {
+        "bg": "#164E63",
+        "inner": "#ECFEFF",
+        "lines": "#A5F3FC",
+        "target": "#2DD4BF",
+        "ink": "#083344",
+        "rim": "#0E7490"
+      },
+      "blockers": [
+        "#F472B6",
+        "#FBBF24",
+        "#34D399",
+        "#60A5FA",
+        "#C084FC"
+      ],
+      "nameFil": "Kaharian ng Coral",
+      "taglineFil": "Maglibot sa pitong nagliliwanag na bahura.",
+      "roster": [
+        {
+          "name": "Finky the Turtle",
+          "emoji": "🐢"
+        },
+        {
+          "name": "Splash Dolphin",
+          "emoji": "🐬"
+        },
+        {
+          "name": "Reef Seahorse",
+          "emoji": "🐡"
+        },
+        {
+          "name": "Pearl Manta",
+          "emoji": "🐠"
+        },
+        {
+          "name": "Krill Racer",
+          "emoji": "🦐"
+        }
+      ],
+      "trackTrims": {
+        "EXPLORER": "#0E7490",
+        "PLANNER": "#0369A1",
+        "BUILDER": "#8A6D2F",
+        "STRATEGIST": "#2F4A75",
+        "ARCHITECT": "#0F6B64",
+        "INNOVATOR": "#5E35B1",
+        "VISIONARY": "#5E4B9E"
+      },
+      "boardDark": {
+        "boardBg": "#0E4F5C",
+        "inner": "#083344",
+        "lines": "#155E75",
+        "target": "#5EEAD4",
+        "ink": "#CFFAFE",
+        "rim": "#0E7490"
+      },
+      "frame": {
+        "light": [
+          "#E0F7FA",
+          "#B2EBF2",
+          "#80DEEA"
+        ],
+        "dark": [
+          "#164E63",
+          "#0E4F5C",
+          "#083344"
+        ]
+      }
+    }
+  },
+  "trackWorld": {
+    "EXPLORER": "city-cars",
+    "BUILDER": "magic-forest",
+    "PLANNER": "space-explorer",
+    "STRATEGIST": "clearspace",
+    "ARCHITECT": "coral-kingdom",
+    "INNOVATOR": "coral-kingdom",
+    "VISIONARY": "magic-forest"
+  },
+  "trackInfo": {
+    "EXPLORER": {
+      "name": "Explorer",
+      "emoji": "🚗",
+      "tagline": "First steps and short paths, one move at a time.",
+      "nameFil": "Explorer",
+      "taglineFil": "Mga unang hakbang at maikling daan, isa-isa lang."
+    },
+    "BUILDER": {
+      "name": "Builder",
+      "emoji": "🔨",
+      "tagline": "Learn how pieces open space for each other.",
+      "nameFil": "Builder",
+      "taglineFil": "Matutunan kung paano nagbubukas ng espasyo ang mga piyesa."
+    },
+    "PLANNER": {
+      "name": "Planner",
+      "emoji": "🗺️",
+      "tagline": "Think two and three moves ahead.",
+      "nameFil": "Planner",
+      "taglineFil": "Mag-isip nang dalawa o tatlong move mas una."
+    },
+    "STRATEGIST": {
+      "name": "Strategist",
+      "emoji": "♟️",
+      "tagline": "Tight boards that reward careful sequencing.",
+      "nameFil": "Strategist",
+      "taglineFil": "Masiksip na board na gantimpala ang maingat na sunod-sunuran."
+    },
+    "ARCHITECT": {
+      "name": "Architect",
+      "emoji": "🏛️",
+      "tagline": "Structure-first thinking on the 5×5 frame.",
+      "nameFil": "Architect",
+      "taglineFil": "Pag-iisip na may estruktura sa 5×5 na board."
+    },
+    "INNOVATOR": {
+      "name": "Innovator",
+      "emoji": "💡",
+      "tagline": "Bigger grids and longer solutions.",
+      "nameFil": "Innovator",
+      "taglineFil": "Mas malalaking grid at mas mahahabang solusyon."
+    },
+    "VISIONARY": {
+      "name": "Visionary",
+      "emoji": "🔮",
+      "tagline": "The toughest 6×6 journeys in the game.",
+      "nameFil": "Visionary",
+      "taglineFil": "Ang pinakamahihirap na 6×6 na paglalakbay sa laro."
+    }
+  },
+  "skills": {
+    "PATH_CLEARING": "Path Clearing",
+    "ONE_STEP_PLANNING": "One-Step Planning",
+    "MULTI_STEP_PLANNING": "Multi-Step Planning",
+    "BLOCKING_RELATIONSHIPS": "Blocking Relationships",
+    "SEQUENCING": "Sequencing"
+  },
+  "conceptWorlds": [
+    {
+      "id": "toy-workshop",
+      "set": "Tactile Toybox",
+      "setFil": "Tactile Toybox",
+      "name": "Toy Workshop",
+      "nameFil": "Toy Workshop",
+      "tagline": "Walnut tray with mitered seams and brass bolts, a felt bed of quilted pockets, and candy-gloss wooden pieces.",
+      "taglineFil": "Walnut na tray na may mitered seams at brass bolts, felt na kama na may quilted pockets, at makikinang na kahoy na piyesa.",
+      "stage": [
+        "#8A5830",
+        "#4E2F18"
+      ],
+      "swatches": [
+        "#F6EDDC",
+        "#8A5830",
+        "#EFE2C6",
+        "#F4553F",
+        "#F7C455",
+        "#EFCF6E"
+      ],
+      "motifs": "Walnut tray · mitered seams · brass bolts · felt bed · checkered exit doorway",
+      "motifsFil": "Walnut tray · mitered seams · brass bolts · felt na kama · checkered na pinto",
+      "sheen": 0.34,
+      "aura": 0.55
+    },
+    {
+      "id": "marshmallow-meadow",
+      "set": "Soft Clay",
+      "setFil": "Soft Clay",
+      "name": "Marshmallow Meadow",
+      "nameFil": "Marshmallow Meadow",
+      "tagline": "A puffy stitched frame over deep quilted padding, marshmallow pieces with a bottom rim-light, and a moon gate under fireflies.",
+      "taglineFil": "Malambot na stitched na frame sa makapal na quilted padding, marshmallow na piyesa na may rim-light, at moon gate sa ilaw ng fireflies.",
+      "stage": [
+        "#F9CEE1",
+        "#C6BCF2"
+      ],
+      "swatches": [
+        "#FDF2F8",
+        "#F9CEE1",
+        "#E7F6EA",
+        "#FFE184",
+        "#FBAACC",
+        "#9A7FAE"
+      ],
+      "motifs": "Stitched puffy frame · quilted padding · marshmallow pieces · moon gate · fireflies",
+      "motifsFil": "Stitched na frame · quilted padding · marshmallow na piyesa · moon gate · fireflies",
+      "sheen": 0.3,
+      "aura": 0.55
+    },
+    {
+      "id": "candy-arcade",
+      "set": "Neon Pop",
+      "setFil": "Neon Pop",
+      "name": "Candy Arcade",
+      "nameFil": "Candy Arcade",
+      "tagline": "An arcade cabinet with neon piping and a glow-dot grid, jelly pieces with sugar rims, and a neon portal exit.",
+      "taglineFil": "Arcade cabinet na may neon piping at glow-dot na grid, jelly na piyesa na may sugar rims, at neon portal na labasan.",
+      "stage": [
+        "#2E1E5A",
+        "#100826"
+      ],
+      "swatches": [
+        "#0A0718",
+        "#2E1E5A",
+        "#4DE1FF",
+        "#FF5FD2",
+        "#FF4F7E",
+        "#FFC326"
+      ],
+      "motifs": "Arcade cabinet · neon piping · glow-dot grid · jelly pieces · neon portal",
+      "motifsFil": "Arcade cabinet · neon piping · glow-dot na grid · jelly na piyesa · neon portal",
+      "sheen": 0.52,
+      "aura": 0.7
+    },
+    {
+      "id": "paper-tale",
+      "set": "Storybook Paper",
+      "setFil": "Storybook Paper",
+      "name": "Paper Tale",
+      "nameFil": "Paper Tale",
+      "tagline": "Layered cardstock with a stitched border and dog-ear corners, die-cut sticker pieces, and a torn exit with a bookmark ribbon.",
+      "taglineFil": "Nakapatong na cardstock na may stitched na border at dog-ear na sulok, die-cut na sticker na piyesa, at punit na labasan na may bookmark ribbon.",
+      "stage": [
+        "#FFFDF4",
+        "#C9A87C"
+      ],
+      "swatches": [
+        "#F7F1E3",
+        "#FFFDF4",
+        "#C9A87C",
+        "#E05B54",
+        "#F59E5B",
+        "#C0392B"
+      ],
+      "motifs": "Layered cardstock · stitched border · dog-ear corners · die-cut pieces · torn exit with ribbon",
+      "motifsFil": "Nakapatong na cardstock · stitched border · dog-ear na sulok · die-cut na piyesa · punit na labasan na may ribbon",
+      "sheen": 0.34,
+      "aura": 0.55
+    }
+  ]
+}

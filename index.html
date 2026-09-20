@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'">
+  <meta name="referrer" content="no-referrer">
+  <title>Unblock Odyssey — Companion Website</title>
+  <meta name="description" content="Play real sample puzzles from Unblock Odyssey in your browser. One level from every pack, synced straight from the game — slide the blocks, open the gate, drive out the hero.">
+  <meta name="theme-color" id="meta-theme-color" content="#FAF9F6">
+  <meta property="og:title" content="Unblock Odyssey — Play sample puzzles">
+  <meta property="og:description" content="Real puzzles from the game, playable in your browser. 7 skill tracks, 35 packs, 175 free samples.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%235C51D6'/%3E%3Crect x='9' y='10' width='34' height='15' rx='6' fill='%23FF5252'/%3E%3Crect x='24' y='39' width='15' height='15' rx='6' fill='%23FFD54F'/%3E%3Crect x='43' y='28' width='12' height='26' rx='6' fill='%234DB6AC'/%3E%3Ccircle cx='17' cy='17.5' r='2.2' fill='%23fff'/%3E%3Ccircle cx='26' cy='17.5' r='2.2' fill='%23fff'/%3E%3C/svg%3E">
+
+  <script src="src/js/preflight.js"></script>
+  <link rel="stylesheet" href="src/styles/fonts.css">
+  <link rel="stylesheet" href="src/styles/tokens.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/components.css">
+  <link rel="stylesheet" href="src/styles/worlds.css">
+
+</head>
+<body>
+  <a class="skip-link" href="#app" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#/" aria-label="Unblock Odyssey home">
+        <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="16" fill="#5C51D6"/>
+          <rect x="9" y="10" width="34" height="15" rx="6" fill="#FF5252"/>
+          <rect x="24" y="39" width="15" height="15" rx="6" fill="#FFD54F"/>
+          <rect x="43" y="28" width="12" height="26" rx="6" fill="#4DB6AC"/>
+          <circle cx="17" cy="17.5" r="2.2" fill="#fff"/>
+          <circle cx="26" cy="17.5" r="2.2" fill="#fff"/>
+        </svg>
+        <span class="brand-name">Unblock Odyssey<small data-i18n="brandTag">Companion website</small></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#/" data-nav="home" data-i18n="navHome">Home</a>
+        <a href="#/play" data-nav="play" data-i18n="navPlay">Play</a>
+        <a href="#/worlds" data-nav="worlds" data-i18n="navWorlds">Worlds</a>
+        <a href="#/about" data-nav="about" data-i18n="navAbout">About</a>
+      </nav>
+
+      <div class="prefs" role="group" aria-label="Display preferences" data-i18n-aria="prefsGroup">
+        <button class="pref-btn" id="pref-theme" aria-pressed="false">☀️</button>
+        <button class="pref-btn" id="pref-contrast" aria-pressed="false">◐</button>
+        <button class="pref-btn" id="pref-motion" aria-pressed="false">⚡</button>
+        <button class="pref-btn" id="pref-sound" aria-pressed="false">🔇</button>
+        <button class="pref-btn pref-lang" id="pref-lang" title="Wika / Language">FIL</button>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu" data-i18n-aria="menu">☰</button>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span data-i18n="footerRights">© 2026 Unblock Odyssey. All rights reserved.</span>
+      <span data-i18n="footerSync">Puzzles synced live from the game · this site never modifies the game.</span>
+      <span><a href="#/about" data-i18n="footerHow">How syncing works</a></span>
+    </div>
+  </footer>
+
+  <noscript>
+    <div style="max-width:640px;margin:60px auto;padding:0 20px;font-family:sans-serif;text-align:center">
+      <h1>Unblock Odyssey</h1>
+      <p>This playable website needs JavaScript. Please enable it and reload.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>

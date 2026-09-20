@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-explorer-brave-explorers",
+  "version": 3,
+  "levels": [
+    {
+      "id": "v2-explorer-brave-explorers-l01-q01",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 1
+      },
+      "gridSize": 4,
+      "exit": {
+        "side": "RIGHT",
+        "index": 1
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 1,
+          "y": 2,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 3,
+          "x": 1,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-brave-explorers-l01-q02",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 2
+      },
+      "gridSize": 4,
+      "exit": {
+        "side": "RIGHT",
+        "index": 2
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 2,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 4,
+          "x": 1,
+          "y": 0,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-brave-explorers-l01-q03",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 3
+      },
+      "gridSize": 4,
+      "exit": {
+        "side": "RIGHT",
+        "index": 1
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 1,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 1,
+          "y": 2,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 1,
+          "y": 3,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 4,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-brave-explorers-l01-q04",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 4
+      },
+      "gridSize": 4,
+      "exit": {
+        "side": "RIGHT",
+        "index": 1
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 3,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 0,
+          "y": 2,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 4,
+          "x": 1,
+          "y": 3,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    },
+    {
+      "id": "v2-explorer-brave-explorers-l01-q05",
+      "journeyPosition": {
+        "level": 1,
+        "puzzle": 5
+      },
+      "gridSize": 4,
+      "exit": {
+        "side": "RIGHT",
+        "index": 0
+      },
+      "blocks": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0,
+          "length": 2,
+          "orientation": "HORIZONTAL",
+          "target": true
+        },
+        {
+          "id": 1,
+          "x": 2,
+          "y": 3,
+          "length": 2,
+          "orientation": "HORIZONTAL"
+        },
+        {
+          "id": 2,
+          "x": 3,
+          "y": 0,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 3,
+          "x": 0,
+          "y": 1,
+          "length": 2,
+          "orientation": "VERTICAL"
+        },
+        {
+          "id": 5,
+          "x": 1,
+          "y": 2,
+          "length": 3,
+          "orientation": "HORIZONTAL"
+        }
+      ],
+      "metadata": {
+        "track": "EXPLORER",
+        "skills": [
+          "PATH_CLEARING",
+          "SEQUENCING"
+        ],
+        "authoredDifficulty": 3,
+        "expectedMinimumMoves": 4
+      }
+    }
+  ]
+}
